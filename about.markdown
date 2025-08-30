@@ -19,11 +19,11 @@ I enjoy learning quickly, solving problems, and connecting with people. When Iâ€
 Feel free to reach out if youâ€™d like to collaborate or just talk shop!  
 You can find me on [GitHub](https://github.com/SamMirandaJr) or [LinkedIn](www.linkedin.com/in/sam-miranda-jr-07b5a993).
 
-### Skills
-#### Technical Skills
+## Skills
+### Technical Skills
 
 {% include technicalskills.md %}
 
-#### Soft Skills
+### Soft Skills
 
 {% include softskills.md %}

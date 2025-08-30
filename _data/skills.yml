@@ -1,36 +1,37 @@
 technical:
-  - name: Manual Testing
+  - title: Manual Testing
     level: Intermediate
     description: Experienced in creating and executing test cases, identifying defects, and verifying fixes in UAT environments.
-  - name: Test Case Documentation
+  - title: Test Case Documentation
     level: Intermediate
     description: Writing clear, structured test cases and reporting results to stakeholders.
-  - name: SQL & Databases
+  - title: SQL & Databases
     level: Beginner
     description: Basic querying and data validation skills, growing toward deeper analytics use.
-  - name: Python
+  - title: Python
     level: Beginner
     description: Familiar with scripting, data manipulation, and automating repetitive tasks.
-  - name: Git & GitHub
+  - title: Git & GitHub
     level: Intermediate
     description: Comfortable with version control, branching, pull requests, and publishing to GitHub Pages.
-  - name: Jekyll / Static Sites
+  - title: Jekyll / Static Sites
     level: Beginner
     description: Building and customizing static websites using Jekyll and GitHub Pages.
-  - name: Data Science Foundations
+  - title: Data Science Foundations
     level: Beginner
     description: Developing knowledge in statistics, data wrangling, and visualization.
 
 soft:
-  - name: Communication
+  - title: Communication
     description: Strong written and verbal communication from years of customer service and cross-team collaboration.
-  - name: Attention to Detail
+  - title: Attention to Detail
     description: Ability to spot inconsistencies and ensure high-quality deliverables in testing and analysis.
-  - name: Problem Solving
+  - title: Problem Solving
     description: Skilled at troubleshooting, resolving issues quickly, and providing actionable insights.
-  - name: Team Leadership
+  - title: Team Leadership
     description: Experience mentoring and supporting colleagues, with a focus on collaboration and growth.
-  - name: Adaptability
+  - title: Adaptability
     description: Comfortable learning new tools and technologies quickly and applying them to real-world challenges.
-  - name: Client-Facing Experience
+  - title: Client-Facing Experience
     description: Professional background in handling client needs, building trust, and ensuring satisfaction.
+    
