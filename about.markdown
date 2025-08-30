@@ -1,6 +1,6 @@
 ---
-layout: archive
-title: About
+layout: single
+title: About Sam Miranda
 permalink: /about/
 ---
 # Hi, I’m Sam 👋  
