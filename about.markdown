@@ -1,18 +1,20 @@
 ---
-layout: page
+layout: Archive
 title: About
 permalink: /about/
 ---
+# Hi, I’m Sam 👋  
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I have a background in **computer science** and experience working in **financial services** as a **Manual Tester/User Acceptance**.  
+These days, I’m focused on breaking into **data science** and exploring ways to combine tech, business, and creativity.  
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I enjoy learning quickly, solving problems, and connecting with people. When I’m not working on tech projects, you’ll probably find me experimenting with new recipes, live streaming, or dialed into a good podcast.  
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### What I’m working on
+- Building projects to strengthen my **data science skills**  
+- Creating content around **tech + productivity**  
+- Exploring **sales engineering** as an opportunity to leverage testing and customer support skills 
 
-
-[jekyll-organization]: https://github.com/jekyll
+### Let’s Connect
+Feel free to reach out if you’d like to collaborate or just talk shop!  
+You can find me on [GitHub](https://github.com/SamMirandaJr) or [LinkedIn](www.linkedin.com/in/sam-miranda-jr-07b5a993).
