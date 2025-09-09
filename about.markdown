@@ -5,7 +5,7 @@ permalink: /about/
 ---
 # Hi, I’m Sam 👋  
 
-I have a background in **computer science** and experience working in **financial services** as a **Manual Tester/User Acceptance**.  
+I have a background in **computer science** and experience working in **financial services** as a **Manual Testerd(UA)**.  
 These days, I’m focused on breaking into **data science** and exploring ways to combine tech, business, and creativity.  
 
 I enjoy learning quickly, solving problems, and connecting with people. When I’m not working on tech projects, you’ll probably find me experimenting with new recipes, live streaming, or dialed into a good podcast.  
