@@ -1,7 +1,7 @@
 --- 
 #to make sure Jekyll reads this 
 --- 
-
+{% comment %}
 @import "default";
 @import "author";
 @import "footer";
@@ -10,3 +10,4 @@
 @import "nav";
 @import "post";
 @import "taxonomy";
+{% endcomment %}
