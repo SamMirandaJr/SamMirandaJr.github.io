@@ -2,27 +2,37 @@
 layout: archive
 ---
 
+{%- comment -%}
+Custom home layout section:
+- Displays featured "Work" posts in a grid using the Minimal Mistakes archive layout.
+- Adds section headers for "My Favorite Work" and "My Favorite Articles".
+- Ensure spacing between sections to prevent overlap with following content.
+{%- endcomment -%}
+
+
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "My Favorite Work" }}</h3>
+<section class="home-section">
+  <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "My Favorite Work" }}</h3>
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+  {% if paginator %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
 
-{% assign entries_layout = page.entries_layout | default: 'grid' %}
-<div class="entries-{{ entries_layout }}">
+  {% assign entries_layout = page.entries_layout | default: 'grid' %}
+
+  <div class="entries-{{ entries_layout }}">
     {% for post in posts %}
-        {% if post.highlight_home and post.categories contains "work" %}
+      {% if post.highlight_home and post.categories contains "work" %}
         {% include archive-single.html type=entries_layout %}
-        {% endif %}
+      {% endif %}
     {% endfor %}
-    
-</div>
+  </div>
+</section>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "My Favorite Articles" }}</h3>
-
-
-{% include paginator.html %}
+<section class="home-section" style="margin-top: 3rem;">
+  <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "My Favorite Articles" }}</h3>
+  {% include paginator.html %}
+</section>
