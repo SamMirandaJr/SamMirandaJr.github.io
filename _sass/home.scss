@@ -1,5 +1,14 @@
+/* Fix overlapping issue between avatar and sections */
+
 img.avatar {
-    float: left;
-    width: 30%;
-    margin: 0 1em 2em 0;
+  float: left;
+  width: 30%;
+  margin: 0 1em 2em 0;
 }
+
+/* Add clear and spacing between home sections */
+.home-section {
+  clear: both;
+  margin-top: 3rem; // pushes next section down
+}
+/* this was added from chatgpt - was getting an overlap of the my 'favorite work' section and 'favorite article's' section*/
